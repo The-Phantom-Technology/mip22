@@ -16,6 +16,8 @@ cd /opt/mip22
 
 bash mip22.sh
 
-chmod -R 755 /opt/PHANTX
+cp -Rf mip22 /opt/PHANTX/bin
+
+chmod -R 755 /opt/PHANTX/bin
 rm -rf /opt/PHOS/tool/mip22
 rm -rf /opt/PHOS/tool/mip22
